@@ -1,0 +1,15 @@
+{
+	"name": "risto-client-js",
+	"version": "0.0.0",
+	"scripts": {
+		"start": "babel-node ./src/app.js",
+		"watch": "babel-watch ./src/app.js"
+	},
+	"dependencies": {
+		"grpc": "1.2.0",
+		"babel-cli": "6.11.4"
+	},
+	"devDependencies": {
+		"babel-watch": "2.0.6"
+	}
+}
